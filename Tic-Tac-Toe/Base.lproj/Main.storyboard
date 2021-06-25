@@ -72,6 +72,9 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCu-DX-qNI" userLabel="GameBoard">
                                         <rect key="frame" x="177" y="313" width="670" height="670"/>
                                         <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xsU-on-pkl">
+                                                <rect key="frame" x="8" y="0.0" width="662" height="670"/>
+                                            </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KUO-Ix-lpj">
                                                 <rect key="frame" x="0.0" y="0.0" width="670" height="670"/>
                                                 <subviews>
@@ -80,21 +83,18 @@
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cr-Vl-TlG">
                                                                 <rect key="frame" x="0.0" y="0.0" width="223.5" height="223.5"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
-                                                                    <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5J2-nL-aEW"/>
+                                                                    <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Bf-FB-oyo"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xka-9o-nqB">
                                                                 <rect key="frame" x="223.5" y="0.0" width="223" height="223.5"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
                                                                     <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EPu-eL-6Lj"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKI-4D-VjP">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKI-4D-VjP">
                                                                 <rect key="frame" x="446.5" y="0.0" width="223.5" height="223.5"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
                                                                     <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k5T-Oh-x3f"/>
                                                                 </connections>
@@ -106,21 +106,18 @@
                                                         <subviews>
                                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKi-sr-VBz">
                                                                 <rect key="frame" x="0.0" y="0.0" width="223.5" height="223"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
                                                                     <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUa-Z0-Hce"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQf-sF-lbn">
                                                                 <rect key="frame" x="223.5" y="0.0" width="223" height="223"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
                                                                     <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ocp-2i-syJ"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geu-A5-f2A">
                                                                 <rect key="frame" x="446.5" y="0.0" width="223.5" height="223"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
                                                                     <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zw3-Dl-J3W"/>
                                                                 </connections>
@@ -132,21 +129,21 @@
                                                         <subviews>
                                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZV-M9-7NV">
                                                                 <rect key="frame" x="0.0" y="0.0" width="223.5" height="223.5"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
                                                                     <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I2U-bJ-cDM"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BxV-nV-T1V">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BxV-nV-T1V">
                                                                 <rect key="frame" x="223.5" y="0.0" width="223" height="223.5"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
                                                                 <connections>
                                                                     <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="by2-A9-o08"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X88-rG-xkX">
                                                                 <rect key="frame" x="446.5" y="0.0" width="223.5" height="223.5"/>
-                                                                <state key="normal" backgroundImage="iPad_X.png"/>
+                                                                <connections>
+                                                                    <action selector="pressedGameBoardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cUf-P5-h7H"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -156,9 +153,13 @@
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="KUO-Ix-lpj" secondAttribute="bottom" id="1od-Mw-J04"/>
+                                            <constraint firstItem="xsU-on-pkl" firstAttribute="top" secondItem="rCu-DX-qNI" secondAttribute="top" id="94s-RH-vi7"/>
+                                            <constraint firstAttribute="trailing" secondItem="xsU-on-pkl" secondAttribute="trailing" id="FXg-gK-QEB"/>
+                                            <constraint firstAttribute="bottom" secondItem="xsU-on-pkl" secondAttribute="bottom" id="JT9-dS-ZIz"/>
                                             <constraint firstAttribute="trailing" secondItem="KUO-Ix-lpj" secondAttribute="trailing" id="KbU-bt-3nu"/>
                                             <constraint firstItem="KUO-Ix-lpj" firstAttribute="top" secondItem="rCu-DX-qNI" secondAttribute="top" id="KmH-b6-kwO"/>
                                             <constraint firstAttribute="width" secondItem="rCu-DX-qNI" secondAttribute="height" multiplier="28:31" id="LtK-jI-WFa"/>
+                                            <constraint firstItem="xsU-on-pkl" firstAttribute="leading" secondItem="rCu-DX-qNI" secondAttribute="leading" constant="8" id="NgJ-bn-ThE"/>
                                             <constraint firstAttribute="height" constant="670" id="Yft-Lh-i6l"/>
                                             <constraint firstItem="KUO-Ix-lpj" firstAttribute="leading" secondItem="rCu-DX-qNI" secondAttribute="leading" id="hge-4H-620"/>
                                             <constraint firstAttribute="width" constant="670" id="iPY-ej-2AX"/>
@@ -305,16 +306,26 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="gameBoardImage" destination="xsU-on-pkl" id="6uU-9T-R6G"/>
                         <outlet property="gameStateLabel" destination="xMO-aX-CTB" id="g6S-yN-U7R"/>
+                        <outlet property="gameStateNavBar" destination="tUL-bb-h3W" id="pJA-IR-Ieo"/>
+                        <outletCollection property="gameBoardButtons" destination="kKI-4D-VjP" collectionClass="NSMutableArray" id="vNb-Cy-UfJ"/>
+                        <outletCollection property="gameBoardButtons" destination="PQf-sF-lbn" collectionClass="NSMutableArray" id="Gfr-d0-UWH"/>
+                        <outletCollection property="gameBoardButtons" destination="BxV-nV-T1V" collectionClass="NSMutableArray" id="Kuj-Qc-Ait"/>
+                        <outletCollection property="gameBoardButtons" destination="X88-rG-xkX" collectionClass="NSMutableArray" id="Vva-8I-Ff7"/>
+                        <outletCollection property="gameBoardButtons" destination="BZV-M9-7NV" collectionClass="NSMutableArray" id="2R9-C9-LXL"/>
+                        <outletCollection property="gameBoardButtons" destination="geu-A5-f2A" collectionClass="NSMutableArray" id="6MV-d7-Rnd"/>
+                        <outletCollection property="gameBoardButtons" destination="dKi-sr-VBz" collectionClass="NSMutableArray" id="vgB-rF-2zd"/>
+                        <outletCollection property="gameBoardButtons" destination="xka-9o-nqB" collectionClass="NSMutableArray" id="3bA-K9-JEX"/>
+                        <outletCollection property="gameBoardButtons" destination="0Cr-Vl-TlG" collectionClass="NSMutableArray" id="kik-ic-YQo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="88.392857142857139"/>
+            <point key="canvasLocation" x="28.710937499999996" y="88.286969253294288"/>
         </scene>
     </scenes>
     <resources>
-        <image name="iPad_X.png" width="194" height="194"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

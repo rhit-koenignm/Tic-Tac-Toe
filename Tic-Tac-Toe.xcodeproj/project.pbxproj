@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F207E3C32685E01600F12860 /* TicTacToeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207E3C22685E01600F12860 /* TicTacToeGame.swift */; };
 		F2917DCC26858BF900233CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2917DCB26858BF900233CD9 /* AppDelegate.swift */; };
 		F2917DCE26858BF900233CD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2917DCD26858BF900233CD9 /* SceneDelegate.swift */; };
 		F2917DD026858BF900233CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2917DCF26858BF900233CD9 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F207E3C22685E01600F12860 /* TicTacToeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
 		F2917DC826858BF900233CD9 /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2917DCB26858BF900233CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2917DCD26858BF900233CD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				F2917DD426858BFA00233CD9 /* Assets.xcassets */,
 				F2917DD626858BFA00233CD9 /* LaunchScreen.storyboard */,
 				F2917DD926858BFA00233CD9 /* Info.plist */,
+				F207E3C22685E01600F12860 /* TicTacToeGame.swift */,
 			);
 			path = "Tic-Tac-Toe";
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F207E3C32685E01600F12860 /* TicTacToeGame.swift in Sources */,
 				F2917DD026858BF900233CD9 /* ViewController.swift in Sources */,
 				F2917DCC26858BF900233CD9 /* AppDelegate.swift in Sources */,
 				F2917DCE26858BF900233CD9 /* SceneDelegate.swift in Sources */,
